@@ -1,0 +1,77 @@
+.about__wrapper {
+  background: url('../../images/about-bg.jpg');
+  margin-top: 26px;
+}
+
+.about__body {
+  color: #fff;
+}
+
+.about__body > .row {
+  padding: 40px 0;
+}
+
+.about__text {
+  width: 70%;
+}
+
+.about__text h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.about__text p {
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+.about__form {
+  max-width: 400px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.about__form h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.02em;
+}
+
+.about__form p {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #666;
+}
+
+.about__form input {
+  margin-top: 20px;
+  border: 1px solid #E6E6E6;
+  padding: 16px;
+  letter-spacing: 0.05em;
+  outline:none;
+  width: 100%;
+}
+
+.about__form input:last-child {
+  margin-top: 18px;
+  background: #FFA133;
+  border: 1px solid #FFA133;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about__form input:last-child:hover {
+  background: #fff;
+  color: #FFA133;
+}
+
+@media screen and (max-width: 991px) {
+  .about__body .row { flex-direction: column; gap: 50px; align-items: center; }
+  .about__body .col-md-6,
+  .about__body .col-md-6 > div { width: 100%; }
+}

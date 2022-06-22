@@ -1,0 +1,23 @@
+/* Base style */
+@import url('blocks/base.css');
+
+/* Header style */
+@import url('blocks/header.css');
+
+/* Hero style */
+@import url('blocks/hero.css');
+
+/* Advantages */
+@import url('blocks/advantages.css');
+
+/* About */
+@import url('blocks/about.css');
+
+/* Goods */
+@import url('blocks/goods.css');
+
+/* Contacs */
+@import url('blocks/contacs.css');
+
+/* Footer */
+@import url('blocks/footer.css');

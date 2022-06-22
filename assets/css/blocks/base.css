@@ -1,0 +1,79 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+/* all cssvariables in site */
+:root {
+  --dark-blue-color: #0A2046; 
+  --accent-color: #FFA133;
+}
+
+/* base style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background: url('../../images/bg.png')
+}
+
+.container {
+  width: 78.65%;
+  margin: 0 auto;
+}
+
+ul, li {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  font-weight: 700;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background: var(--accent-color);
+}
+
+.title__line {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title__line::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background: #FFA133;
+}
+
+.advantages ~ section {
+  margin-top: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-md-6 {
+  width: 50%;
+}

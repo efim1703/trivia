@@ -1,0 +1,102 @@
+.cs-navbar {
+    background: #212121;
+    color: #fff;
+}
+
+.cs-navbar a {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cs-navbar a:hover,
+.cs-navbar a.active {
+    background: #25A589;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.admin-navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row > div {
+    height: 100vh;
+}
+
+.content-page {
+    background: #f5f5f5;
+}
+
+input,
+textarea {
+    padding: 8px 16px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    background: #F0F0F0;
+    outline: none;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    border: 1px solid #25A589;
+}
+
+.form-wrapper {
+    width: 100%;
+    background: #fff;
+    margin-top: 24px;
+}
+
+.form-header {
+    padding: 16px;
+    background: #212121;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+}
+
+.form-content {
+    padding: 16px;
+    border-radius: 4px 4px 0 0;
+}
+
+.form-content label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.form-content input[type="submit"] {
+    background: #25A589;
+    border: none;
+    color: #fff;
+}
+
+.form-content .product-list {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.form-content .product-form {
+    width: 100%;
+}
+
+.form-content img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.form-scroll {
+    overflow-y: scroll;
+    height: 600px;
+}

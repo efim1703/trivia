@@ -1,0 +1,59 @@
+.contacs { margin-bottom: 65px; }
+
+.contacs__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacs__info { 
+    display: flex; 
+    margin-top: 31px; 
+}
+
+.contacs__info-block-2 { margin-left: 70px; }
+
+.contacs__body h2 {
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 0.02em;
+}
+
+.contacs__info-mail { margin-top: 23px; }
+
+.contacs__info-phone p, 
+.contacs__info-mail p, 
+.contacs__info-address p {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+    letter-spacing: 0.02em;
+}
+
+.contacs__info-phone p:last-child,
+.contacs__info-mail p:last-child,
+.contacs__info-address p:last-child {
+    margin-top: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.02em;
+}
+
+.contacs__map iframe {
+    width: clamp(12rem, 40vw, 130rem);
+    height: 326px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contacs__row { flex-direction: column; }
+    .contacs__map { margin-top: 6%; }
+    .contacs__map iframe { width: 100%; }
+}
+
+@media screen and (max-width: 425px) { .contacs__info-block-2 { margin-left: 20px; } }
+@media screen and (max-width: 375px) {
+    .contacs__info-block-2 { margin-left: 0; }
+    .contacs__info { flex-direction: column; }
+    .contacs__info-address { margin-top: 23px; }
+}

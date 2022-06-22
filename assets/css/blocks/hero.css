@@ -1,0 +1,40 @@
+.hero__wrapper {
+  background: url('../../images/hero-bg.jpg');
+  padding: 50px 0 170px 0;
+}
+
+.hero__body {
+  color: #fff;
+  width: 39.73%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero__title::after,
+.hero__title::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: var(--accent-color);
+  display: block;
+}
+
+.hero__header {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 60px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .hero__wrapper { padding: 50px 0; }
+}

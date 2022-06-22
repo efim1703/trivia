@@ -1,0 +1,8 @@
+.footer__wrapper { background: #0A2046; }
+.footer__body { padding: 10px 0; }
+.footer__body p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.9;
+}
